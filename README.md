@@ -1,5 +1,6 @@
-# Discord Intern Task 1
-Welcome Card Implementation
+# Discord Intern Tasks
+- Welcome Card Implementation
+- Creating a Role and Channel on Webhook Trigger
 
 ## Installation
 ```bash
@@ -11,5 +12,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
-# Misc.
-Other tasks can be found in the branches of this repository.
+## Testing Wehooks
+> Edit the [`webhook_post.py`](./webhook_post.py) file and add your webhook url.
+```bash
+python webhook_post.py
+```
