@@ -228,7 +228,7 @@ async def on_message(message):
             if member is None:
                 continue
             for role in opt[1]:
-                if role != "@everyone":
+                if role != "@everyone" and role != "LabRat":
                     role_obj = discord.utils.get(guild.roles, name=role)
                     if role_obj is None:
                         continue

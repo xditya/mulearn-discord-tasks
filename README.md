@@ -1,6 +1,7 @@
 # Discord Intern Tasks
 - Welcome Card Implementation
 - Creating a Role and Channel on Webhook Trigger
+- Role Synchronization between Database and Discord
 
 ## Installation
 ```bash
